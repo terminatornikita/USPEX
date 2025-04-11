@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Анализ роста Биткоина</title>
+    <style>
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><text x="10" y="50" font-family="Arial" font-size="40" fill="%2300a85420">$</text></svg>');
+            z-index: -1;
+            animation: scrollDollars 30s linear infinite;
+        }
+
+        @keyframes scrollDollars {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 0 1000px;
+            }
+        }
+
+        #projects a {
+            font-weight: normal;
+            color: #006341;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        #projects a:hover {
+            color: #00a854;
+            text-decoration: underline;
+            
+        }
+
+        
+    </style>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Анализ роста Биткоина</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#skills">Навыки</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>О себе</h2>
+        <img src="images/image.png.jpg" alt="Моё фото" class="profile-photo">
+        <p><em>Я</em> — энтузиаст в сфере криптовалют и веб-разработки. Создаю проекты, анализирующие рост и поведение
+            криптовалют, включая Биткоин.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Проекты</h2>
+        <ul>
+            <li><a href="https://www.tradingview.com/chart/" target="_blank">Bitcoin Trend Analyzer</a> —
+                веб-приложение, визуализирующее исторические данные роста BTC.</li>
+            <li><a href="https://cryptopanic.com/" target="_blank">CryptoNews Parser</a> — инструмент для сбора и
+                анализа новостей, влияющих на цену BTC.</li>
+            <li><a href="https://www.coingecko.com/en/coins/bitcoin" target="_blank">Интерактивный график BTC</a> —
+                проект с использованием Chart.js для отображения графика роста.</li>
+            <li><a href="https://www.coingecko.com/" target="_blank">CoinGecko</a> — данные по криптовалютам</li>
+            <li><a href="https://coinmarketcap.com/" target="_blank">CoinMarketCap</a> — котировки, новости и аналитика
+            </li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Навыки</h2>
+
+        <h3>Hard Skills</h3>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Анализ данных и визуализация</li>
+            <li>Работа с API (CoinGecko, CoinMarketCap)</li>
+            <li>Python + Pandas</li>
+            <li>Chart.js / D3.js</li>
+            <li>Node.js + Express</li>
+        </ul>
+
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Аналитическое мышление</li>
+            <li>Самостоятельность</li>
+            <li>Умение решать сложные задачи</li>
+            <li>Креативность</li>
+            <li>Навык быстрого обучения</li>
+        </ul>
+
+        <p class="earnings">Доход: $10,000,000 💸</p>
+    </section>
+
+    <footer>
+        <p>Связаться со мной: <a href="https://github.com/terminatornikita" target="_blank">GitHub</a></p>
+    </footer>
+
+</body>
+
+</html>
